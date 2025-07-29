@@ -4,12 +4,14 @@
 Este es un desafío resuelto de [Frontend Mentor](https://www.frontendmentor.io/). El objetivo fue construir un componente interactivo de calificación y lograr que luzca lo más parecido posible al diseño original, además de hacerlo totalmente funcional.
 
 ## 🖼 Capturas
+<img width="547" height="550" alt="Captura" src="https://github.com/user-attachments/assets/93d6aaed-e91c-47f8-aac2-d18496bbc283" />
 
 ### Estado inicial
-![Estado inicial](./ruta/a/Captura.PNG)
+
 
 ### Estado después de enviar
-![Estado final](./ruta/a/Captu2ra.PNG)
+<img width="493" height="497" alt="Captu2ra" src="https://github.com/user-attachments/assets/35782010-d257-43cf-821f-e3b11c96be77" />
+
 
 > 🔄 Asegurate de reemplazar la ruta de las imágenes si las subís al repo (`./ruta/a/Captura.PNG`).
 
@@ -32,18 +34,6 @@ Este es un desafío resuelto de [Frontend Mentor](https://www.frontendmentor.io/
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
-📦 interactive-rating-component
-├── index.html
-├── style.css (generado con Tailwind)
-├── script.js
-├── README.md
-└── /assets (opcional, para imágenes)
-```
-
----
 
 ## 📝 Notas
 
@@ -57,7 +47,3 @@ Este es un desafío resuelto de [Frontend Mentor](https://www.frontendmentor.io/
 
 Desarrollado por **Christian Bustos**
 
----
-
-¿Querés ver el desafío en vivo? *(opcional si lo subís a GitHub Pages o Vercel)*  
-👉 [Demo online](https://tu-url.vercel.app/)
