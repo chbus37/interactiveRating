@@ -1,49 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/output.css"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Desafio Frontend</title>
+  </head>
+  <body
+    class="bg-very-dark-blue text-white font-overpass h-screen grid place-content-center"
+  >
+    <main>
+      <div
+        id="firstCard"
+        class="gradient-background w-[347px] rounded-2xl p-6 sm:w-[412px] sm:p-10"
+      >
+        <div
+          class="bg-dark-blue w-10 h-10 rounded-full grid place-content-center mb-4"
+        >
+          <img
+            src="./assets/images/icon-star.svg"
+            alt="icono estrella"
+          />
+        </div>
+        <h2 class="text-2xl mb-2 sm:text-[28px]">How did we do?</h2>
+        <p class="text-light-grey mb-6">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="flex place-content-between mb-6">
+          <button class="circle-btn">1</button>
+          <button class="circle-btn">2</button>
+          <button class="circle-btn">3</button>
+          <button class="circle-btn">4</button>
+          <button class="circle-btn">5</button>
+        </div>
 
-  <!-- Rating state start -->
+        <button
+          id="submitBtn"
+          class="bg-Orange-500 text-very-dark-blue uppercase w-full p-4 rounded-[22px] font-bold text-[14px] h-[45px] tracking-widest cursor-pointer hover:bg-white"
+        >
+          Submit
+        </button>
+      </div>
 
-  How did we do?
+      <div
+        id="secondCard"
+        class="gradient-background w-[347px] rounded-2xl hidden p-6 sm:w-[412px] sm:p-10"
+      >
+        <div class="grid place-content-center mb-6">
+          <img
+            class="w-[144px]"
+            src="./assets/images/illustration-thank-you.svg"
+            alt="ilustracion gracias"
+          />
+        </div>
+        <div class="grid place-content-center">
+          <p
+            class="bg-dark-blue rounded-[22px] inline-block px-3 py-2 text-orange-500"
+          >
+            You selected <span id="score">4</span> out of 5
+          </p>
+        </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+        <h2 class="text-center text-2xl mb-[10px] mt-[10px]">Thank you!</h2>
+        <p class="text-center text-light-grey">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
 
-  1 2 3 4 5
+      <div class="text-center text-light-grey mt-3">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+        <br />
+        Coded by
+        <a href="https://www.linkedin.com/in/christiansbustos/"
+          >Christian Bustos</a
+        >.
+      </div>
+    </main>
 
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>
